@@ -1,8 +1,8 @@
-var packageName = 'ruslanchek:angular-meteor-dynamic-locale';
+var packageName = 'rshashkov:angular-meteor-dynamic-locale';
 var where = 'client';
-var version = '0.1';
+var version = '0.0.2';
 var summary = 'Angular Meteor package to change $locale dynamically';
-var gitLink = 'https://github.com/lgalfaso/angular-dynamic-locale.git';
+var gitLink = 'https://github.com/ruslanchek/angular-dynamic-locale';
 var documentationFile = 'README.md';
 
 // Meta-data
@@ -19,5 +19,5 @@ Package.onUse(function(api) {
 
 	// api.use('DEPENDENCY_NAME', where); // Dependencies
 
-	// api.addFiles('FILE_NAME', where); // Files in use
+	api.addFiles('src.js', where); // Files in use
 });
